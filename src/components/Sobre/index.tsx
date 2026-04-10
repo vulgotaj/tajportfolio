@@ -11,17 +11,27 @@ function Sobre() {
         
         <Container>
           <div className="flex flex-col gap-4">
-            <h1 className="text-sky-400 text-3xl font-bold tracking-wider mb-7"><span className="text-white">{"<"}</span>Sobre<span className="text-white">{"/>"}</span></h1>
+            <h1 className="text-sky-400 text-3xl font-bold tracking-wider mb-7"> 
+              <span className="text-white">{"<"}</span>Sobre<span className="text-white">{"/>"}</span>
+            </h1>
             
-            <p className="text-lg md:text-xl text-justify">Sou desenvolvedor front-end com foco na construção de interfaces modernas, responsivas e bem estruturadas. Minha principal stack é baseada em React.js e TypeScript, que utilizo no desenvolvimento de aplicações organizadas, escaláveis e de fácil manutenção.</p>
+            <p className="text-lg md:text-xl text-justify"> {/* Parágrafo 1 */}
+              Sou desenvolvedor front-end com foco na construção de interfaces modernas, responsivas e bem estruturadas. Minha principal stack é baseada em React.js e TypeScript, que utilizo no desenvolvimento de aplicações organizadas, escaláveis e de fácil manutenção.
+            </p>
 
-            <p className="text-lg md:text-xl text-justify">Tenho experiência prática por meio de projetos próprios, onde aplico gerenciamento de estado com Redux e integração com serviços como Firebase, desenvolvendo soluções completas e funcionais.</p>
+            <p className="text-lg md:text-xl text-justify"> {/* Parágrafo 2 */}
+              Tenho experiência prática por meio de projetos próprios, onde aplico gerenciamento de estado com Redux e integração com serviços como Firebase, desenvolvendo soluções completas e funcionais.
+            </p>
 
-            <p className="text-lg md:text-xl text-justify">Utilizo Git e GitHub para versionamento de código, mantendo organização e boas práticas no desenvolvimento. Além disso, possuo uma base sólida em HTML e CSS, aplicando conceitos de responsividade, semântica e estilização com Tailwind CSS para garantir uma boa experiência do usuário.</p>
+            <p className="text-lg md:text-xl text-justify"> {/* Parágrafo 3 */}
+              Utilizo Git e GitHub para versionamento de código, mantendo organização e boas práticas no desenvolvimento. Além disso, possuo uma base sólida em HTML e CSS, aplicando conceitos de responsividade, semântica e estilização com Tailwind CSS para garantir uma boa experiência do usuário.
+            </p>
 
-            <p className="text-lg md:text-xl text-justify">Estou em constante evolução, buscando aprimorar minhas habilidades e acompanhar as melhores práticas do ecossistema front-end.</p>
+            <p className="text-lg md:text-xl text-justify"> {/* Parágrafo 4 */}
+              Estou em constante evolução, buscando aprimorar minhas habilidades e acompanhar as melhores práticas do ecossistema front-end.
+            </p>
 
-            <div className="mt-7 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 mx-auto gap-4">
+            <div className="mt-7 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 mx-auto gap-4"> {/* Skill Cards */}
               <SkillCard title="React.js" icon={<FaReact/>} />
               <SkillCard title="TaiwindCSS" icon={<SiTailwindcss/>} />
               <SkillCard title="Typescript" icon={<SiTypescript/>} />
