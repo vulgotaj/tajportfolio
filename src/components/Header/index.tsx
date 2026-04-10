@@ -11,7 +11,7 @@ function Header() {
                 <nav>
                     <ul className="flex gap-5 tracking-wider">
                         <li><a href="#sobre" className="text-white hover:text-sky-400 text-lg font-medium">Sobre</a></li>
-                        <li><a href="#" className="text-white hover:text-sky-400 text-lg font-medium">Projetos</a></li>
+                        <li><a href="#projetos" className="text-white hover:text-sky-400 text-lg font-medium">Projetos</a></li>
                         <li><a href="#" className="text-white hover:text-sky-400 text-lg font-medium">Contato</a></li>
                     </ul>
                 </nav>

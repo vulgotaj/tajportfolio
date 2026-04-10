@@ -10,9 +10,9 @@ function Inicio() {
         
         <Container>
           <div className="flex flex-col items-center justify-center gap-4 h-full">
-            <span className="text-3xl font-extralight">Olá, mundo!</span>
-            <h1 className="text-6xl font-medium">Eu sou <span className="text-sky-400">Felipe Tajima</span></h1>
-            <span className="text-3xl font-extralight">Desenvolvedor Front-End</span>
+            <span className="text-2xl md:text-3xl font-extralight">Olá, mundo!</span>
+            <h1 className="text-4xl md:text-6xl font-medium">Eu sou <span className="text-sky-400">Felipe Tajima</span></h1>
+            <span className="text-2xl md:text-3xl font-extralight">Desenvolvedor Front-End</span>
             <div className="mt-5 w-full flex justify-center items-center gap-10">
 
               <div className="h-px w-3/12 bg-gray-300"></div>
