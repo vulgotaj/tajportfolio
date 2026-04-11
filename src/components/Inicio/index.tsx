@@ -17,9 +17,29 @@ function Inicio() {
 
               <div className="h-px w-3/12 bg-gray-300"></div>
 
-              <FaLinkedin size={28}/>
-              <FaGithub size={28}/>
-              <MdEmail size={28}/>
+              <a 
+                href="https://www.linkedin.com/in/feltajima/" 
+                target="_blank" 
+                className="text-white transition-all duration-500 hover:text-sky-400"
+              >
+                <FaLinkedin size={28}/>
+              </a>
+
+              <a 
+                href="https://github.com/vulgotaj" 
+                target="_blank" 
+                className="text-white transition-all duration-500 hover:text-sky-400"
+              >
+                <FaGithub size={28}/>
+              </a>
+
+              <a 
+                href="mailto:felipebtajima05@gmail.com" 
+                target="_blank" 
+                className="text-white transition-all duration-500 hover:text-sky-400"
+              >
+                <MdEmail size={28}/>
+              </a>
 
               <div className="h-px w-3/12 bg-gray-300"></div>
 
