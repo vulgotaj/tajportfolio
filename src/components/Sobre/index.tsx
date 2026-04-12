@@ -31,7 +31,7 @@ function Sobre() {
               Estou em constante evolução, buscando aprimorar minhas habilidades e acompanhar as melhores práticas do ecossistema front-end.
             </p>
 
-            <div className="mt-7 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 mx-auto gap-4"> {/* Skill Cards */}
+            <div className="mt-7 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 mx-auto gap-2 md:gap-4"> {/* Skill Cards */}
               <SkillCard title="React.js" icon={<FaReact/>} />
               <SkillCard title="TaiwindCSS" icon={<SiTailwindcss/>} />
               <SkillCard title="Typescript" icon={<SiTypescript/>} />
