@@ -12,7 +12,7 @@ interface ProjectCardProps {
 function ProjectCard({ title, description, image, skills, githubLink, projectLink }: ProjectCardProps) {
     return (
         <div className="w-[320px] flex flex-col items-start rounded-lg bg-zinc-900/30 border border-sky-400">
-          <img src={image} className="w-full h-52 aspect-video object-cover rounded-t-lg"/> {/* Imagem do projeto */}
+          <img src={image} className="w-full h-52 aspect-video object-cover rounded-t-lg" alt={title}/> {/* Imagem do projeto */}
 
           <div className="w-full p-4 flex flex-col gap-5 rounded-b-lg flex-1">
 
@@ -29,12 +29,12 @@ function ProjectCard({ title, description, image, skills, githubLink, projectLin
             </div>
 
             <div className="flex justify-between items-center mt-auto"> {/* Link para Github / Projeto rodando */}
-              <a href={githubLink} target="_blank" className="bg-sky-400 px-2 py-1 text-white font-medium flex items-center justify-center gap-2 rounded-lg cursor-pointer transition-all hover:scale-110 hover:bg-sky-300">
+              <a href={githubLink} aria-label="Ver código do projeto" target="_blank" className="bg-sky-400 px-2 py-1 text-white font-medium flex items-center justify-center gap-2 rounded-lg cursor-pointer transition-all hover:scale-110 hover:bg-sky-300">
                 <FaGithub />
                 Ver código
               </a>
 
-              <a href={projectLink} target="_blank" className="bg-sky-400 px-2 py-1 text-white font-medium flex items-center justify-center gap-2 rounded-lg cursor-pointer transition-all hover:scale-110 hover:bg-sky-300">
+              <a href={projectLink} aria-label="Ver o projeto" target="_blank" className="bg-sky-400 px-2 py-1 text-white font-medium flex items-center justify-center gap-2 rounded-lg cursor-pointer transition-all hover:scale-110 hover:bg-sky-300">
                 <FaEye />
                 Ver projeto
               </a>

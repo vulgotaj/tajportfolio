@@ -19,7 +19,8 @@ function Inicio() {
 
               <a 
                 href="https://www.linkedin.com/in/feltajima/" 
-                target="_blank" 
+                target="_blank"
+                aria-label="Linkedin" 
                 className="text-white transition-all duration-500 hover:text-sky-400"
               >
                 <FaLinkedin size={28}/>
@@ -27,7 +28,8 @@ function Inicio() {
 
               <a 
                 href="https://github.com/vulgotaj" 
-                target="_blank" 
+                target="_blank"
+                aria-label="Github"
                 className="text-white transition-all duration-500 hover:text-sky-400"
               >
                 <FaGithub size={28}/>
@@ -35,7 +37,8 @@ function Inicio() {
 
               <a 
                 href="mailto:felipebtajima05@gmail.com" 
-                target="_blank" 
+                target="_blank"
+                aria-label="Email"
                 className="text-white transition-all duration-500 hover:text-sky-400"
               >
                 <MdEmail size={28}/>

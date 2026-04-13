@@ -24,6 +24,7 @@ function Contato() {
                 <a 
                 className="flex justify-center items-center gap-2 text-lg md:text-xl w-full flex-1 p-4 border-sky-400 text-sky-400 border-2 rounded-lg transition-all duration-500 hover:scale-110 hover:border-sky-300 hover:text-sky-300"
                 href="https://wa.me/5521982076692"
+                aria-label="Enviar mensagem em whatsapp"
                 target="_blank"
                 >
                   <FaWhatsapp size={30}/>
@@ -33,6 +34,7 @@ function Contato() {
                 <a 
                 className="flex justify-center items-center gap-2 text-lg md:text-xl w-full flex-1 p-4 border-sky-400 text-sky-400 border-2 rounded-lg transition-all duration-500 hover:scale-110 hover:border-sky-300 hover:text-sky-300"
                 href="https://www.linkedin.com/in/feltajima/"
+                aria-label="Perfil no Linkedin"
                 target="_blank"  
                 >
                   <FaLinkedin size={30}/>
@@ -42,6 +44,7 @@ function Contato() {
                 <a 
                 className="flex justify-center items-center gap-2 text-lg md:text-xl w-full flex-1 p-4 border-sky-400 text-sky-400 border-2 rounded-lg transition-all duration-500 hover:scale-110 hover:border-sky-300 hover:text-sky-300"
                 href="mailto:felipebtajima05@gmail.com"
+                aria-label="Enviar um e-mail"
                 target="_blank"  
                 >
                   <MdEmail size={30}/>
