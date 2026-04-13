@@ -6,7 +6,7 @@ function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <header className="bg-black/80 fixed w-full z-10">
+    <header className="bg-black/80 fixed w-full z-11">
         <Container>
             <div className="flex items-center justify-between">
               <a 

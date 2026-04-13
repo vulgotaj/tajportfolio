@@ -6,10 +6,20 @@ import { MdEmail } from 'react-icons/md'
 function Inicio() {
 
   return (
-    <section id="inicio" className="bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/bg-main.jpg')] bg-cover bg-center h-screen">
+    <section id="inicio" className="relative h-screen overflow-hidden">
+
+      <img
+        src="/bg-main.webp"
+        alt="Imagem de fundo computador"
+        loading="eager"
+        fetchPriority="high"
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+
+      <div className="absolute inset-0 bg-black/60"></div>
         
         <Container>
-          <div className="flex flex-col items-center justify-center gap-4 h-full">
+          <div className="relative z-10 flex flex-col items-center justify-center gap-4 h-full">
             <span className="text-2xl md:text-3xl font-extralight">Olá, mundo!</span>
             <h1 className="text-3xl md:text-6xl font-medium">Eu sou <span className="text-sky-400">Felipe Tajima</span></h1>
             <span className="text-2xl md:text-3xl font-extralight">Desenvolvedor Front-End</span>
