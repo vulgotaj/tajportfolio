@@ -1,11 +1,11 @@
 import { Container } from '../Container'
 import ProjectCard from '../ProjectCard'
-import TaskList from '../../assets/images/tasklist.jpg'
-import CloudCar from '../../assets/images/cloudcar.jpg'
-import DevBurguer from '../../assets/images/devburguer.jpg'
-import TodayMovies from '../../assets/images/todaymovies.jpg'
-import DevLink from '../../assets/images/devlink.jpg'
-import WebCarros from '../../assets/images/webcarros.jpg'
+import TaskList from '../../assets/images/tasklist.webp'
+import CloudCar from '../../assets/images/cloudcar.webp'
+import DevBurguer from '../../assets/images/devburguer.webp'
+import TodayMovies from '../../assets/images/todaymovies.webp'
+import DevLink from '../../assets/images/devlink.webp'
+import WebCarros from '../../assets/images/webcarros.webp'
 
 function Projetos() {
 
