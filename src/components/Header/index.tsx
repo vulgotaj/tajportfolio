@@ -35,7 +35,7 @@ function Header() {
 
                   <li>
                     <a 
-                      href="#" 
+                      href="#contato" 
                       className="text-white transition-all duration-500  hover:text-sky-400 text-lg font-medium"
                     >
                       Contato
