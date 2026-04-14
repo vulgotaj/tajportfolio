@@ -16,19 +16,19 @@ function Sobre() {
             </h1>
             
             <p className="text-lg md:text-xl text-justify"> {/* Parágrafo 1 */}
-              Sou desenvolvedor front-end com foco na construção de interfaces modernas, responsivas e bem estruturadas. Minha principal stack é baseada em React.js e TypeScript, que utilizo no desenvolvimento de aplicações organizadas, escaláveis e de fácil manutenção.
+              Sou desenvolvedor Front-End com foco na criação de interfaces modernas, responsivas e bem estruturadas. Minha principal stack é composta por React.js e TypeScript, tecnologias que utilizo para desenvolver aplicações escaláveis, organizadas e de fácil manutenção.
             </p>
 
             <p className="text-lg md:text-xl text-justify"> {/* Parágrafo 2 */}
-              Tenho experiência prática por meio de projetos próprios, onde aplico gerenciamento de estado com Redux e integração com serviços como Firebase, desenvolvendo soluções completas e funcionais.
+              Possuo experiência prática adquirida em projetos próprios, nos quais aplico e aprimoro constantemente meus conhecimentos, garantindo evolução contínua e soluções funcionais. Utilizo Git e GitHub para versionamento de código, seguindo boas práticas de organização e colaboração no desenvolvimento
             </p>
 
             <p className="text-lg md:text-xl text-justify"> {/* Parágrafo 3 */}
-              Utilizo Git e GitHub para versionamento de código, mantendo organização e boas práticas no desenvolvimento. Além disso, possuo uma base sólida em HTML e CSS, aplicando conceitos de responsividade, semântica e estilização com Tailwind CSS para garantir uma boa experiência do usuário.
+              Também tenho sólida base em HTML, CSS e Tailwind CSS, aplicando conceitos de responsividade, semântica e design consistente para oferecer uma excelente experiência ao usuário.
             </p>
 
             <p className="text-lg md:text-xl text-justify"> {/* Parágrafo 4 */}
-              Estou em constante evolução, buscando aprimorar minhas habilidades e acompanhar as melhores práticas do ecossistema front-end.
+              Estou em constante evolução profissional, sempre buscando aprender novas tecnologias, aprimorar minhas habilidades e acompanhar as melhores práticas do ecossistema Front-End.
             </p>
 
             <div className="mt-7 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 mx-auto gap-2 md:gap-4"> {/* Skill Cards */}
