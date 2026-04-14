@@ -51,7 +51,8 @@ function Header() {
 
                   <li>
                     <a 
-                      href="#"
+                      href="/curriculo.pdf"
+                      download
                       aria-label="Baixar currículo" 
                       className="text-white bg-sky-400 px-3 py-2 rounded-lg transition-all duration-500  hover:text-sky-400 hover:bg-white text-lg font-medium"
                     >
@@ -113,7 +114,8 @@ function Header() {
 
                   <li>
                     <a 
-                      href="#"
+                      href="/curriculo.pdf"
+                      download
                       onClick={() => setMenuOpen(false)}
                       aria-label="Baixar currículo"
                       className="text-white bg-sky-400 px-3 py-2 rounded-lg transition-all duration-500  hover:text-sky-400 hover:bg-white text-lg font-medium"
